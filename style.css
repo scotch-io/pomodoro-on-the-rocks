@@ -1,0 +1,95 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Colors
+Background Red : EC2E2B
+Yellow : FEDD2B
+Cooldown : 265E9A
+*/
+
+#demo-nav 		{ z-index:99999 !important; }
+body {
+	background: #EC2E2B;
+	font-family: 'Open Sans';
+	padding-top:50px;
+}
+
+/* HEADER
+	============================================================ */
+header {
+	margin-top: 40px;
+	text-align: center;
+}
+
+/* logo */
+#logo {	 }
+
+/* MAIN
+	============================================================ */
+#main {
+	padding-top: 40px;
+	text-align: center;
+}
+
+#message {
+	color: #F7F7F7;
+	font-size: 50px;
+    line-height:1;
+}
+
+#timer {
+    color: #F7F7F7;
+    font-size: 181px;
+    margin-bottom: 40px;
+}
+#sessionHolder {
+    font-size: 20px;
+}
+
+#taskInput {
+    margin-bottom: 30px;
+}
+#taskName {
+    background: #DDD;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    width: 50%;
+	border-radius: 4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+}
+    #taskName::-ms-clear {
+        background: #ff6e6b;
+        margin-right: 10px;
+    }
+#progress {
+    color: #FEDD2B;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* buttons*/
+#buttons button {
+    background: #ffea38;
+    border: none;
+	cursor: pointer;
+	font-size: 20px;
+    margin: 0 auto;
+    padding: 10px 40px 5px;
+    border-radius: 4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+}
+    #buttons button:hover {
+        background: #ffff51;
+    }
+#stop, #reset {
+    display: none;
+}
+
+#win8 		{ background:#333; padding:20px; position:absolute; right:20px; bottom:20px; text-align:center;
+	border-radius: 4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+}
+#win8 a 	{ font-size:12px; color:#FFF; text-decoration:none; }
+#win8 img 	{ display:block; margin-bottom:5px; margin-left:auto; margin-right:auto; }
